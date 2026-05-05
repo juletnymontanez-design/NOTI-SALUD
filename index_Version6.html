@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🩺 NOTI SALUD - Un Brote en Tiempo Real</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVEGACIÓN STICKY -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">💉</span>
+                <span class="logo-text">NOTI SALUD</span>
+            </div>
+            <button class="hamburger" id="hamburger">☰</button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Inicio</a></li>
+                <li><a href="#why" class="nav-link">¿Por Qué?</a></li>
+                <li><a href="#schedule" class="nav-link">PAI</a></li>
+                <li><a href="#benefits" class="nav-link">Beneficios</a></li>
+                <li><a href="#conclusion" class="nav-link">Conclusión</a></li>
+                <li><a href="#qr" class="nav-link">QR</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION CON INTRODUCCIÓN EXACTA -->
+    <section id="home" class="hero">
+        <div class="hero-background-animated"></div>
+        <div class="hero-content">
+            <!-- BANNER: UN BROTE EN TIEMPO REAL NOTI SALUD -->
+            <div class="noti-salud-banner">
+                <span class="banner-text">📢 UN BROTE EN TIEMPO REAL</span>
+                <h1 class="banner-title">NOTI SALUD</h1>
+            </div>
+
+            <!-- INTRODUCCIÓN COMPLETA Y EXACTA -->
+            <div class="introduction-box">
+                <h2 class="intro-title">Introducción</h2>
+                <p class="intro-text">
+                    La <strong>vacunación</strong> es una de las estrategias más efectivas de la salud pública para la <strong>prevención de enfermedades transmisibles</strong> y el <strong>control de brotes epidemiológicos</strong>. En Colombia, el <strong>Programa Ampliado de Inmunizaciones (PAI)</strong> cumple un papel fundamental en la protección de la población, especialmente de los grupos más vulnerables.
+                </p>
+                
+                <p class="intro-text">
+                    Este trabajo presenta la <strong>simulación de un brote de sarampión</strong>, con el fin de analizar la importancia de las vacunas, la vigilancia epidemiológica y la adecuada gestión administrativa en salud para garantizar una respuesta oportuna y efectiva que permita reducir el riesgo de propagación y <strong>proteger a la comunidad</strong>.
+                </p>
+            </div>
+
+            <button class="cta-button" onclick="document.getElementById('why').scrollIntoView({behavior: 'smooth'})">
+                ↓ Conoce Más ↓
+            </button>
+        </div>
+        <div class="floating-shapes">
+            <div class="shape shape-1">💉</div>
+            <div class="shape shape-2">🛡️</div>
+            <div class="shape shape-3">❤️</div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: ¿POR QUÉ? -->
+    <section id="why" class="why-section">
+        <div class="section-header">
+            <h2>¿Por Qué Se Realizó Este Trabajo? 💡</h2>
+            <p class="section-subtitle">Razones fundamentales de la vacunación</p>
+        </div>
+        
+        <div class="why-container">
+            <div class="why-card card-1">
+                <div class="card-icon">🔍</div>
+                <h3>Prevención de Enfermedades</h3>
+                <p>Las vacunas previenen enfermedades transmisibles y la falta de cobertura aumenta el riesgo de brotes epidemiológicos</p>
+            </div>
+
+            <div class="why-card card-2">
+                <div class="card-icon">🚧</div>
+                <h3>Barreras de Acceso</h3>
+                <p>Identificar obstáculos que impiden la vacunación para mejorar la cobertura en zonas vulnerables</p>
+            </div>
+
+            <div class="why-card card-3">
+                <div class="card-icon">📊</div>
+                <h3>Vigilancia Epidemiológica</h3>
+                <p>Monitoreo constante de enfermedades para detectar brotes y responder rápidamente</p>
+            </div>
+
+            <div class="why-card card-4">
+                <div class="card-icon">🎯</div>
+                <h3>Importancia del PAI</h3>
+                <p>Fortalecer el Programa Ampliado de Inmunizaciones para garantizar cobertura equitativa</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: ¿PARA QUÉ? -->
+    <section class="for-what-section">
+        <div class="section-header">
+            <h2>¿Para Qué Se Realizó Este Trabajo? 🎯</h2>
+            <p class="section-subtitle">Objetivos y metas</p>
+        </div>
+        
+        <div class="for-what-container">
+            <div class="for-what-card">
+                <div class="card-number">1</div>
+                <h3>Comprender la Importancia</h3>
+                <p>Reconocer las vacunas como pilar fundamental de la respuesta del sistema de salud ante brotes epidemiológicos</p>
+            </div>
+
+            <div class="for-what-card">
+                <div class="card-number">2</div>
+                <h3>Inmunidad Colectiva</h3>
+                <p>Cómo el PAI contribuye a la inmunidad colectiva y protege a los grupos más vulnerables, especialmente a niños menores de 5 años</p>
+            </div>
+
+            <div class="for-what-card">
+                <div class="card-number">3</div>
+                <h3>Gestión Administrativa</h3>
+                <p>Identificar el rol de la administración en salud en la planeación y ejecución de estrategias de vacunación</p>
+            </div>
+
+            <div class="for-what-card">
+                <div class="card-number">4</div>
+                <h3>Educación Comunitaria</h3>
+                <p>Promover la educación en salud y la conciencia sobre la importancia de la vacunación preventiva en la comunidad</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: ESQUEMA PAI -->
+    <section id="schedule" class="schedule-section">
+        <div class="section-header">
+            <h2>📅 Esquema de Vacunación PAI</h2>
+            <p class="section-subtitle">Programa Ampliado de Inmunizaciones en Colombia</p>
+        </div>
+        
+        <div class="schedule-timeline">
+            <div class="schedule-card timeline-card-1">
+                <div class="timeline-dot"></div>
+                <div class="age-badge">RN</div>
+                <h3>Recién Nacido</h3>
+                <div class="vaccines">
+                    <div class="vaccine-item">✓ BCG</div>
+                    <div class="vaccine-item">✓ VPO/IPV</div>
+                </div>
+            </div>
+
+            <div class="schedule-card timeline-card-2">
+                <div class="timeline-dot"></div>
+                <div class="age-badge">2M</div>
+                <h3>2 Meses</h3>
+                <div class="vaccines">
+                    <div class="vaccine-item">✓ Pentavalente</div>
+                    <div class="vaccine-item">✓ VPO</div>
+                </div>
+            </div>
+
+            <div class="schedule-card timeline-card-3">
+                <div class="timeline-dot"></div>
+                <div class="age-badge">4M</div>
+                <h3>4 Meses</h3>
+                <div class="vaccines">
+                    <div class="vaccine-item">✓ Pentavalente</div>
+                    <div class="vaccine-item">✓ VPO</div>
+                </div>
+            </div>
+
+            <div class="schedule-card timeline-card-4">
+                <div class="timeline-dot"></div>
+                <div class="age-badge">6M</div>
+                <h3>6 Meses</h3>
+                <div class="vaccines">
+                    <div class="vaccine-item">✓ Pentavalente</div>
+                    <div class="vaccine-item">✓ VPO</div>
+                </div>
+            </div>
+
+            <div class="schedule-card timeline-card-5">
+                <div class="timeline-dot"></div>
+                <div class="age-badge">12M</div>
+                <h3>12 Meses</h3>
+                <div class="vaccines">
+                    <div class="vaccine-item">✓ SRP</div>
+                    <div class="vaccine-item">✓ Varicela</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: BENEFICIOS -->
+    <section id="benefits" class="benefits-section">
+        <div class="section-header">
+            <h2>✨ Beneficios de la Vacunación</h2>
+            <p class="section-subtitle">6 razones para vacunarte y proteger tu comunidad</p>
+        </div>
+        
+        <div class="benefits-grid">
+            <div class="benefit-item benefit-1">
+                <div class="benefit-number">1</div>
+                <div class="benefit-icon">🦠</div>
+                <h3>Prevención</h3>
+                <p>Evita contraer enfermedades transmisibles como sarampión, polio y tuberculosis</p>
+            </div>
+
+            <div class="benefit-item benefit-2">
+                <div class="benefit-number">2</div>
+                <div class="benefit-icon">👶</div>
+                <h3>Protección</h3>
+                <p>Protege especialmente a niños menores de 5 años e inmunocomprometidos</p>
+            </div>
+
+            <div class="benefit-item benefit-3">
+                <div class="benefit-number">3</div>
+                <div class="benefit-icon">🌊</div>
+                <h3>Reducción de Brotes</h3>
+                <p>Disminuye la propagación rápida de enfermedades epidemiológicas</p>
+            </div>
+
+            <div class="benefit-item benefit-4">
+                <div class="benefit-number">4</div>
+                <div class="benefit-icon">🏥</div>
+                <h3>Sistema de Salud</h3>
+                <p>Reduce la presión en hospitales y sistemas de salud, ahorrando recursos</p>
+            </div>
+
+            <div class="benefit-item benefit-5">
+                <div class="benefit-number">5</div>
+                <div class="benefit-icon">🤝</div>
+                <h3>Inmunidad Colectiva</h3>
+                <p>Protege a toda la población, incluso a los no vacunados</p>
+            </div>
+
+            <div class="benefit-item benefit-6">
+                <div class="benefit-number">6</div>
+                <div class="benefit-icon">🌍</div>
+                <h3>Sociedad Sana</h3>
+                <p>Contribuye a una sociedad más sana, productiva y con mejor calidad de vida</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: CÓDIGO QR -->
+    <section id="qr" class="qr-section">
+        <div class="section-header">
+            <h2>📱 ¡Escanéame!</h2>
+            <p class="section-subtitle">Accede a más información sobre vacunación</p>
+        </div>
+        
+        <div class="qr-container">
+            <div class="qr-box">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://verdecruz588.github.io/cartera-vacunacion" alt="QR Code" class="qr-image">
+                <p class="qr-text">Repositorio en GitHub</p>
+            </div>
+            <div class="qr-info">
+                <h3>Conoce nuestro proyecto</h3>
+                <p>Escanea el código QR con tu cámara o dispositivo móvil para acceder al repositorio completo del portafolio de vacunación interactivo.</p>
+                <p><strong>URL:</strong> verdecruz588.github.io/cartera-vacunacion</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN: CONCLUSIÓN -->
+    <section id="conclusion" class="conclusion-section">
+        <div class="conclusion-content">
+            <div class="conclusion-icon-large">💪</div>
+            <h2>🎯 Conclusión</h2>
+            <p>
+                En conclusión, este trabajo permitió comprender la importancia de la <strong>vacunación</strong> como pilar fundamental de la salud pública y del <strong>Programa Ampliado de Inmunizaciones (PAI)</strong> en la prevención y control de brotes epidemiológicos.
+            </p>
+            <p>
+                A través de la información presentada sobre el brote de sarampión, se ha evidenciado el papel clave de la <strong>vigilancia epidemiológica</strong> y de la <strong>gestión administrativa en salud</strong> para garantizar una respuesta oportuna, proteger a la población vulnerable y fortalecer las acciones de prevención, contribuyendo así a la promoción de la salud y al bienestar colectivo.
+            </p>
+            <p class="conclusion-highlight">
+                <strong>¡Protegiendo a Colombia, Vacuna por Vacuna! 💉❤️</strong>
+            </p>
+            <button class="cta-button" onclick="alert('Para más información: www.minsalud.gov.co')">
+                📚 Más Información
+            </button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>💉 NOTI SALUD</h4>
+                <p>Un Brote en Tiempo Real</p>
+            </div>
+            <div class="footer-section">
+                <h4>📚 Navegación</h4>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#why">¿Por Qué?</a></li>
+                    <li><a href="#schedule">PAI</a></li>
+                    <li><a href="#benefits">Beneficios</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>🇨🇴 Colombia</h4>
+                <p>Programa Ampliado de Inmunizaciones (PAI)</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NOTI SALUD - Creado por verdecruz588 | Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
